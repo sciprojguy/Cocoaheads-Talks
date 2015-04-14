@@ -157,6 +157,7 @@ class DataManager: NSObject {
     
     func migrateDatabaseIfNecessary() -> Int {
         let cachedVersion:String = self.versionOfCachedDb()
+        var err:Bool = false
         if cachedVersion != currentVersion {
             
             // loop through version history from cached to current
@@ -168,7 +169,6 @@ class DataManager: NSObject {
                 let toVersion = tuple.1
                 let sqlStatements = self.sqlToMigrate(fromVersion, toVersion: toVersion)
                 db?.execute("BEGIN")
-                var err:Bool = false
                 for sqlStatement in sqlStatements {
                     let e = db?.execute(sqlStatement, parameters: nil)
                     if 0 == e {
@@ -183,6 +183,9 @@ class DataManager: NSObject {
                 else {
                     db?.execute("ROLLBACK")
                     NSLog("ROLLBACK")
+                }
+                if err {
+                    break
                 }
             }
         }
