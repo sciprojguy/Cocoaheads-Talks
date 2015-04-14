@@ -32,7 +32,8 @@ class DataManager: NSObject {
     // name of database
     let dbName:String = "POI.db"
 
-    // singleton/initializer methods
+    // singleton/initializer methods.  this is a singleton because we're
+    // managing access to a single DB file
     struct Static {
         static var instance:DataManager? = nil
         static var token:dispatch_once_t = 0

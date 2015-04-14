@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POI/SQLiteDB.swift"
+            timestampString = "450696284.371008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "init(path:options:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POI.SQLiteDB.init (POI.SQLiteDB.Type)(path : Swift.String, options : Swift.Dictionary&lt;Swift.String, protocol&lt;&gt;&gt;) -&gt; POI.SQLiteDB"
+                  moduleName = "POI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswoodard/CocoaHeadsTalks/Cocoaheads-Talks/CoreMudgeon/POI/POI/SQLiteDB.swift"
+                  timestampString = "450207678.203051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POITests.SQLiteDB.init (POITests.SQLiteDB.Type)(path : Swift.String, options : Swift.Dictionary&lt;Swift.String, protocol&lt;&gt;&gt;) -&gt; POITests.SQLiteDB"
+                  moduleName = "POITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswoodard/CocoaHeadsTalks/Cocoaheads-Talks/CoreMudgeon/POI/POI/SQLiteDB.swift"
+                  timestampString = "450207678.825222"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "444">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POI/SQLiteDB.swift"
+            timestampString = "450696284.371008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "query(_:parameters:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POI.SQLiteDB.(query (POI.SQLiteDB) -&gt; (Swift.String, parameters : Swift.Optional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;) -&gt; Swift.Array&lt;POI.SQLRow&gt;).(closure #1)"
+                  moduleName = "POI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswoodard/CocoaHeadsTalks/Cocoaheads-Talks/CoreMudgeon/POI/POI/SQLiteDB.swift"
+                  timestampString = "450208716.203013"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "227">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POITests.SQLiteDB.(query (POITests.SQLiteDB) -&gt; (Swift.String, parameters : Swift.Optional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;) -&gt; Swift.Array&lt;POITests.SQLRow&gt;).(closure #1)"
+                  moduleName = "POITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswoodard/CocoaHeadsTalks/Cocoaheads-Talks/CoreMudgeon/POI/POI/SQLiteDB.swift"
+                  timestampString = "450208716.203486"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "227">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POI/DataManager.swift"
+            timestampString = "450697348.115412"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "sqlToMigrate(_:toVersion:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POI.DataManager.sqlToMigrate (POI.DataManager)(Swift.String, toVersion : Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "POI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswoodard/CocoaHeadsTalks/Cocoaheads-Talks/CoreMudgeon/POI/POI/DataManager.swift"
+                  timestampString = "450697680.919278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "753">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POITests.DataManager.sqlToMigrate (POITests.DataManager)(Swift.String, toVersion : Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "POITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswoodard/CocoaHeadsTalks/Cocoaheads-Talks/CoreMudgeon/POI/POI/DataManager.swift"
+                  timestampString = "450697681.419136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "753">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POI/DataManager.swift"
+            timestampString = "450697580.567271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "versionPath(fromVersion:toVersion:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POI.DataManager.versionPath (POI.DataManager)(fromVersion : Swift.String, toVersion : Swift.String) -&gt; Swift.Array&lt;(Swift.String, Swift.String)&gt;"
+                  moduleName = "POI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswoodard/CocoaHeadsTalks/Cocoaheads-Talks/CoreMudgeon/POI/POI/DataManager.swift"
+                  timestampString = "450697580.57109"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "1727">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POITests.DataManager.versionPath (POITests.DataManager)(fromVersion : Swift.String, toVersion : Swift.String) -&gt; Swift.Array&lt;(Swift.String, Swift.String)&gt;"
+                  moduleName = "POITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswoodard/CocoaHeadsTalks/Cocoaheads-Talks/CoreMudgeon/POI/POI/DataManager.swift"
+                  timestampString = "450697580.571407"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "1727">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POI/ListViewController.swift"
+            timestampString = "450700035.543684"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POI/DataManager.swift"
+            timestampString = "450700074.83821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "pointsOfInterest(_:longitude:radius:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

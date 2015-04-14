@@ -18,9 +18,10 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
        
-//        self.dataMgr = DataManager(options: [:])
-//        let (status, points) = dataMgr!.pointsOfInterest(28.1, longitude: 80.1, radius: 11.0)
-        self.points = []
+        self.dataMgr = DataManager(options: [:])
+        dataMgr?.migrateDatabaseIfNecessary()
+        let (status, points) = dataMgr!.pointsOfInterest(28.1, longitude: 80.1, radius: 11.0)
+        self.points = points
     }
 
     override func didReceiveMemoryWarning() {
